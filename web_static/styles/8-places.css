@@ -48,9 +48,11 @@
 
 .information {
     margin-top: 70px;
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .information div {
@@ -59,25 +61,26 @@
     align-items: center;
 }
 
-.information div p{
-    margin-top: 10px;
+.information  p{
+    margin: 0;
 }
+
 .information .max_guest .place_icon{
     background: url('/images/icon_group.png') no-repeat center;
     width: 100px;
-    height: 40px;
+    height: 55px;
 }
 
 .information .number_rooms .place_icon{
     background: url('/images/icon_bed.png') no-repeat center;
     width: 100px;
-    height: 40px;
+    height: 55px;
 }
 
 .information .number_bathrooms .place_icon{
     background: url('/images/icon_bath.png') no-repeat center;
     width: 100px;
-    height: 40px;
+    height: 55px;
 }
 
 .description p {
